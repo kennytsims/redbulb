@@ -28,7 +28,10 @@ export default function Service() {
 
       <div className="grid  w-1/2 sm:grid-cols-1 gap-10 items-center m-auto">
         {services.map((service) => (
-          <div className="grid  sm:grid-cols-1  lg:grid-cols-2 border  shadow-xl rounded-md ">
+          <div
+            className="grid  sm:grid-cols-1  lg:grid-cols-2 border  shadow-xl rounded-md "
+            key={service.id}
+          >
             <div>
               <Image
                 src={service.image}

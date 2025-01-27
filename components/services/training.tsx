@@ -22,7 +22,7 @@ export default function TrainingModule() {
       <div className="flex items-center justify-center gap-5 ">
         <ul className="grid lg:grid-cols-3 gap-5">
           {trainingModules.map((training, index) => (
-            <li className=" flex items-center justify-center">
+            <li className=" flex items-center justify-center" key={index}>
               <Link href={"/services"}>
                 <Card className=" hover:border-red-600 hover:border-4 text-xl hover:shadow-lg  h-34 w-[18rem] shadow-lg  hover:cursor-pointer">
                   <CardHeader className="flex items-center justify-center">

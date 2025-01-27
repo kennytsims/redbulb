@@ -12,7 +12,7 @@ export default function Partners() {
       </div>
       <div className="flex flex-wrap items-center justify-center gap-5  h-[20rem]  w-full ">
         {clients.map((client) => (
-          <div className="">
+          <div key={client.id}>
             <Image
               src={client.image}
               alt={client.title}

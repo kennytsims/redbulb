@@ -52,6 +52,7 @@ export const services = [
 
 export const trainingModules = [
   {
+    id: 1,
     title: "First Aid Training Services",
     image: "/gallery/pictures/cardio.jpg",
     description:
@@ -59,6 +60,7 @@ export const trainingModules = [
     icon: createElement(FaBriefcaseMedical, { size: 60, color: "red" }),
   },
   {
+    id: 2,
     title: "Fire Safety Training ",
     image: "/gallery/pictures/fireOutbreak.jpg",
     description:
@@ -66,12 +68,14 @@ export const trainingModules = [
     icon: createElement(FaFireExtinguisher, { size: 60, color: "red" }),
   },
   {
+    id: 3,
     title: "Driver Safety Training ",
     image: "/gallery/pictures/driverTrainning.jpg",
     description: "Drive defensively to avoid collisions and crashes.",
     icon: createElement(FaAmbulance, { size: 60, color: "red" }),
   },
   {
+    id: 4,
     title: "Rescue & Life Support",
     image: "/gallery/pictures/rescue.jpg",
     description:
@@ -79,12 +83,14 @@ export const trainingModules = [
     icon: createElement(GiLifeSupport, { size: 60, color: "red" }),
   },
   {
+    id: 5,
     title: "first aid kits sales | Audits",
     image: "/gallery/pictures/firstAidKit.jpg",
     description: "Do not run out of supplies when they are needed the most",
     icon: createElement(FaFireExtinguisher, { size: 60, color: "red" }),
   },
   {
+    id: 6,
     title: "Safety,Health & Environment (SHE)",
     image: "/gallery/pictures/she.jpg",
     description: "Pillar of safety and compliance ",
@@ -93,8 +99,8 @@ export const trainingModules = [
 ];
 
 export const clients = [
-  { image: "/gallery/pictures/hrdc.png", title: "HRDC" },
-  { image: "/gallery/pictures/beq.png", title: "beq" },
-  { image: "/gallery/pictures/filano.png", title: "mtc" },
-  { image: "/gallery/pictures/wuc.png", title: "wuc" },
+  { id: 1, image: "/gallery/pictures/hrdc.png", title: "HRDC" },
+  { id: 2, image: "/gallery/pictures/beq.png", title: "beq" },
+  { id: 3, image: "/gallery/pictures/filano.png", title: "mtc" },
+  { id: 4, image: "/gallery/pictures/wuc.png", title: "wuc" },
 ];
