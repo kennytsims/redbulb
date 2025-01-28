@@ -22,7 +22,7 @@ export default function Subsection() {
           </p>
         </div>
       </div>
-      <div className=" bg-white  lg:h-[50rem] flex flex-col sm:flex-col  lg:flex-row justify-center items-center lg:items-start  gap-5 mx-8 lg:mx-16">
+      <div className=" bg-white  lg:h-[50rem] flex flex-col sm:flex-col  lg:flex-row justify-center items-center lg:items-start  gap-5 mx-3 lg:mx-16">
         <div className=" text-center  w-[20rem] bg-white text-red-600 shadow-md rounded-md h-[12rem] lg:my-24">
           <FaRegHandshake size={50} color="red" className="m-auto" />
           <h1 className="text- lg:text-3xl font-bold lg:font-normal m-4">
