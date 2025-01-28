@@ -61,7 +61,7 @@ flex flex-col gap-3 md:flex-col lg:flex-row justify-center items-center
         </div>
         <div className="copyrights m-5">
           <Image
-            src={"/rebulb/gallery/logo.jpg"}
+            src={"/rebulb/public/gallery/logo.jpg"}
             width={200}
             height={150}
             alt="logo"

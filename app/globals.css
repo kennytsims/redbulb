@@ -7,6 +7,30 @@ body,
 :root {
   height: 100%;
 }
+.bg-fireExtinguisher {
+  background-image: url("/rebulb/public/gallery/pictures/fireExtiguisher.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.bg-firstAid {
+  background-image: url("/redbulb/public/gallery/pictures/firstAid.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-firstAidKit {
+  background-image: url("/rebulb/public/gallery/pictures/FirstAidkit.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.bg-contact {
+  background-image: url("/rebulb/public/gallery/pictures/contacts.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
