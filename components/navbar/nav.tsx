@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-between  text-xl  h-24 w-full border-b-2 border-b-slate-50 shadow-lg fixe z-10">
       <div className="">
         <Image
-          src={"/rebulb/public/gallery/logo.jpg"}
+          src={"/gallery/logo.jpg"}
           width={100}
           height={100}
           alt="logo"

@@ -14,7 +14,7 @@ import { FaBriefcaseMedical } from "react-icons/fa6";
 export default function Service() {
   return (
     <div className="mb-24">
-      <header className=" h-screen w-full bg-firstAidKit  flex items-center justify-center flex-col">
+      <header className="h-screen w-full bg-[url('/redbulb/gallery/pictures/FirstAidkit.png')] bg-no-repeat bg-contain bg-center flex items-center justify-center flex-col">
         <h1 className=" text-2xl lg:text-6xl text-center font-bold  text-red-700">
           Be prepared for emergencies
         </h1>
@@ -26,7 +26,7 @@ export default function Service() {
         </h1>
       </div>
 
-      <div className="grid  w-1/2 sm:grid-cols-1 gap-10 items-center m-auto">
+      <div className="grid  w-1/2 sm:grid-cols-1 gap-10 items-center justify-center  m-auto">
         {services.map((service) => (
           <div
             className="grid  sm:grid-cols-1  lg:grid-cols-2 border  shadow-xl rounded-md "
