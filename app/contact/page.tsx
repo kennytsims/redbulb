@@ -7,7 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function Contacts() {
   return (
     <header>
-      <div className="flex items-center justify-center bg-[url('./gallery/pictures/contacts.jpg')] w-full h-screen bg-cover bg-no-repeat bg-current">
+      <div className="flex items-center justify-center bg-[url('/rebulb/gallery/pictures/contacts.jpg')] w-full h-screen bg-cover bg-no-repeat bg-current">
         <h1 className="text-3xl font-bold lg:text-6xl text-red-700  m-5">
           Contact Us to Enroll{" "}
         </h1>
