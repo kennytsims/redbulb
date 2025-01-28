@@ -14,14 +14,14 @@ import { FaBriefcaseMedical } from "react-icons/fa6";
 export default function Service() {
   return (
     <div className="mb-24">
-      <header className=" h-screen w-full   bg-[url('/gallery/pictures/FirstAidkit.png')] bg-no-repeat bg-contain bg-center flex items-center justify-center flex-col">
-        <h1 className="text-6xl text-center font-bold  text-red-700">
+      <header className=" h-screen w-full   bg-[url('./gallery/pictures/FirstAidkit.png')] bg-no-repeat bg-contain bg-center flex items-center justify-center flex-col">
+        <h1 className=" text-2xl lg:text-6xl text-center font-bold  text-red-700">
           Be prepared for emergencies
         </h1>
-        <p className="text-3xl text-slate-600 ">Learn First Aid </p>
+        <p className="text-xl text-red-700 ">Learn First Aid </p>
       </header>
       <div className="flex items-center justify-center my-16">
-        <h1 className="text-3xl  inline m-3">
+        <h1 className="text-2xl font-bold lg:font-normal lg:text-3xl  inline m-3">
           Take your Safety to the Next Level by Trainning with Us
         </h1>
       </div>

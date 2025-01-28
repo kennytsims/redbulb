@@ -21,7 +21,7 @@ flex flex-col gap-3 md:flex-col lg:flex-row justify-center items-center
  lg:gap-20 rounded-t-full"
       >
         <div>
-          <h1 className="text-2xl text-slate-600">Contact us on</h1>
+          <h1 className="text-2xl text-center text-slate-600">Contact us on</h1>
           <hr className="text-white mb-4" />
           <h3 className="text-slate-600 text-lg">
             <FaPhone size={30} color="red" className=" m-2 inline" />
@@ -31,14 +31,14 @@ flex flex-col gap-3 md:flex-col lg:flex-row justify-center items-center
             <FaEnvelope size={30} color="red" className=" m-2 inline" />
             admin@redbulbinstitute.com
           </div>
-          <h3 className="text-lg">
+          <h3 className="text-lg text-slate-600">
             <FaLocationDot size={30} color="red" className="m-2 inline" />
             Plot 4067, Tlokweng
           </h3>
         </div>
         .
         <div>
-          <h1 className="text-2xl text-slate-600">Links</h1>
+          <h1 className="text-2xl text-center text-slate-600">Links</h1>
           <hr className="text-white mb-4" />
           <Link href="/" className=" text-lg">
             <h3 className="text-slate-600 text-lg">
@@ -47,13 +47,13 @@ flex flex-col gap-3 md:flex-col lg:flex-row justify-center items-center
             </h3>
           </Link>
           <Link href="/services">
-            <h3 className=" text-lg">
+            <h3 className=" text-lg text-slate-600">
               <FaGear size={30} color="red" className=" m-2 inline" />
               Services
             </h3>
           </Link>
           <Link href="/about">
-            <h3 className=" text-lg">
+            <h3 className=" text-lg text-slate-600">
               <FaCircleInfo size={30} color="red" className="m-2 inline" />
               About
             </h3>
@@ -61,7 +61,7 @@ flex flex-col gap-3 md:flex-col lg:flex-row justify-center items-center
         </div>
         <div className="copyrights m-5">
           <Image
-            src={"/gallery/logo.jpg"}
+            src={"./gallery/logo.jpg"}
             width={200}
             height={150}
             alt="logo"
