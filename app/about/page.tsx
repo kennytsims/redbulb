@@ -5,7 +5,7 @@ import { FaHands } from "react-icons/fa";
 export default function About() {
   return (
     <section>
-      <header className="flex flex-col items-center justify-center h-screen w-full bg-[url('https://www.redbulbinstitute.com//redbulb/gallery/pictures/firstAid.jpg')]  bg-cover bg-no-repeat">
+      <header className="flex flex-col items-center justify-center h-screen w-full bg-[url('/gallery/pictures/firstAid.jpg')]  bg-cover bg-no-repeat">
         <h1 className="text-2xl lg:text-6xl text-center font-bold  text-red-700 ">
           Keep Your Work Environment Safe
         </h1>
