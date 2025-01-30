@@ -3,6 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contacts() {
   return (
@@ -14,14 +15,14 @@ export default function Contacts() {
       </div>
       <article className=" grid grid-cols-1 gap-1 lg:grid-cols-3 lg:gap-2 m-3">
         <div className="border-2 border-red-700 m-10 text-center rounded ">
-          <FaPhone
+          <FaWhatsapp
             size={30}
             color="red"
             className="bg-white relative bottom-10  m-2 inline h-16 w-16 p-2 border-2   
     rounded-full  border-red-700"
           />
           <h3 className="text-slate-600 ">+269 72204418</h3>
-          <h3 className="text-slate-600 ">+269 75011003</h3>
+          <h3 className="text-slate-600 ">+269 71588790</h3>
         </div>
         <div className="  h-30 border-2  border-red-700 m-10 text-center rounded">
           <FaEnvelope

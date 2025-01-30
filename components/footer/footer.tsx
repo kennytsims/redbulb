@@ -9,6 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaGear } from "react-icons/fa6";
 import { FaHouse } from "react-icons/fa6";
 import { FaCircleInfo } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 import Link from "next/link";
 
@@ -24,8 +25,8 @@ flex flex-col gap-3 md:flex-col lg:flex-row justify-center items-center
           <h1 className="text-2xl text-center text-slate-600">Contact us on</h1>
           <hr className="text-white mb-4" />
           <h3 className="text-slate-600 text-lg">
-            <FaPhone size={30} color="red" className=" m-2 inline" />
-            +269 72204418 / 75011003
+            <FaWhatsapp size={30} color="red" className=" m-2 inline" />
+            +269 72204418 / 71588790
           </h3>
           <div className="text-slate-600 text-lg">
             <FaEnvelope size={30} color="red" className=" m-2 inline" />
