@@ -16,7 +16,7 @@ export default function TrainingModule() {
     <div className="m-16 ">
       <div className="flex items-center justify-center m-10">
         <h1 className="text-3xl  inline bold">
-          Taking Occupation Health & Safety to the Next Level
+          Taking Occupational Health & Safety to the Next Level
         </h1>
       </div>
       <div className="flex items-center justify-center gap-5 ">

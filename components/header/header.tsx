@@ -11,7 +11,7 @@ export default function Header() {
           <p className="m-5 text-xs lg:text-base">
             Invest in occupational health and safety by choosing a reliable
             partner with a wealth of accumulated knowledge and experience.
-            Rebulb is tried and tested by the industry to provide high-value
+            Redbulb is tried and tested by the industry to provide high-value
             training in occupational health and safety
           </p>
         </div>

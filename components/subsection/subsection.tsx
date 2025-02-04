@@ -9,10 +9,10 @@ export default function Subsection() {
       <div className=" flex justify-center">
         <div className="lg:w-1/2  ">
           <h1 className="sm:text-xl font-bold lg:font-normal lg:text-4xl m-5">
-            Changing Occupation Health & Safety together
+            Changing Occupational Health & Safety together
           </h1>
           <p className=" sm:tex-base lg:text-2xl mx-4">
-            At the heart of Rebulb is creativity and innovation, achieved by
+            At the heart of Redbulb is creativity and innovation, achieved by
             building synergies with various stakeholders in the health and
             safety industry. This approach has enabled us to deliver a superior
             product, uniquely designed and optimized to address specific
