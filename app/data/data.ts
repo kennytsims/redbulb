@@ -32,7 +32,7 @@ export const services = [
     image: "./gallery/pictures/driverTrainning.jpg",
     title: "Driver Safety Training ",
     description:
-      " Motor vehicle accidents are responsible for a similar share of death globally as infectious death diseases. That’s why driver safety training is so important. No one is better prepared to provide that training than redbulb.From our flagship defensive driving classroom programs to our award-winning hand-on training.So let us deliver the training that can help prevent injuries and save lives.",
+      " Motor vehicle accidents are responsible for a similar share of death globally as infectious diseases. That’s why driver safety training is so important. No one is better prepared to provide that training than redbulb.From our flagship defensive driving classroom programs to our award-winning hand-on training.So let us deliver the training that can help prevent injuries and save lives.",
   },
   {
     id: 5,
