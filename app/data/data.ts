@@ -25,7 +25,7 @@ export const services = [
     image: "./gallery/pictures/rescue.jpg",
     title: "Rescue & Life Support",
     description:
-      " The program is designed to provide knowledge and skills on emergency medical technician(EMT),prehospital trauma care, basic life support, cardiopulmonary resuscitation(CPR),vehicle extrication Techniques,basic ambulance course(BAC) for fire services.It also prepare Paramedics who are competent in the cognitive (knowledge), psychomotor (skills), and affective (behavior) learning domains to enter the profession.",
+      " The program is designed to provide knowledge and skills on emergency medical technician(EMT),prehospital trauma care, basic life support, cardiopulmonary resuscitation(CPR),vehicle extrication techniques,basic ambulance course(BAC) for fire services.It also prepare Paramedics who are competent in the cognitive (knowledge), psychomotor (skills), and affective (behavior) learning domains to enter the profession.",
   },
   {
     id: 4,
