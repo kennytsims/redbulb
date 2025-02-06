@@ -23,7 +23,7 @@ export default function Article() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <FaCheckDouble size={100} className="" />
-          <h1 className="text-xl ">Go Beyound Complience</h1>
+          <h1 className="text-xl ">Go Beyond Compliance</h1>
           <p className="text-center">
             We don’t just aim for the standard; we exceed it, ensuring you do
             too.
