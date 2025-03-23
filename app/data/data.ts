@@ -105,4 +105,5 @@ export const clients = [
   { id: 4, image: "./gallery/pictures/wuc.png", title: "wuc" },
   { id: 5, image: "./gallery/pictures/tau.png", title: "tau" },
   { id: 5, image: "./gallery/pictures/tsogo.jpeg", title: "tsogo" },
+  { id: 5, image: "./gallery/pictures/sivle.jpg", title: "sivle" },
 ];
