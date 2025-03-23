@@ -67,10 +67,10 @@ export default function About() {
         <div className="   grid sm:grid-cols-1 lg:grid-cols-[1fr,1fr,2fr] m-16 w-3/4  p-10 ">
           <div className="shadow-2xl">
             <FaEye size={50} color="red" className="m-auto mt-5" />
-            <h1 className="text-2xl text-center font-bold m-3">Vission</h1>
+            <h1 className="text-2xl text-center font-bold m-3">Vision</h1>
             <p className="m-5 ">
               Redbulb vision is to be the go to service provider in occupational
-              health and safety with superiour services.
+              health and safety with superior services.
             </p>
           </div>
           <div className="shadow-2xl">
