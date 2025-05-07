@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="h-screen w-full bg-red-700  items-center rounded-bt-[100%]">
       <div className=" bg-white h-[90%] w-full rounded-br-[100%] items-center shadow-md bg-[url('/gallery/pictures/fireExtiguisher.jpg')] bg-contain bg-no-repeat bg-center lg:flex">
-        <div className="  bg-[url('/gallery/pictures/fireFighter.jpg')]h-44 lg:w-1/3 sm:w-full rounded-xl border border-red-700 bg-white lg:mx-10">
+        <div className="  bg-[url('https://www.redbulbinstitute.com/gallery/pictures/fireFighter.jpg')]h-44 lg:w-1/3 sm:w-full rounded-xl border border-red-700 bg-white lg:mx-10">
           <h1 className="text-base font-bold lg:text-2xl text-center m-5">
             Cultivating Compliance ,Harvesting Safety
           </h1>

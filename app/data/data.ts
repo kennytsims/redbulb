@@ -25,7 +25,7 @@ export const services = [
     image: "./gallery/pictures/rescue.jpg",
     title: "Rescue & Life Support",
     description:
-      " The program is designed to provide knowledge and skills on emergency medical technician(EMT),prehospital trauma care, basic life support, cardiopulmonary resuscitation(CPR),vehicle extrication techniques,basic ambulance course(BAC) for fire services.It also prepare Paramedics who are competent in the cognitive (knowledge), psychomotor (skills), and affective (behavior) learning domains to enter the profession.",
+      " The program is designed to provide knowledge and skills on emergency medical technician(EMT), prehospital trauma care, basic life support, cardiopulmonary resuscitation(CPR),vehicle extrication techniques,basic ambulance course(BAC) for fire services.It also prepare Paramedics who are competent in the cognitive (knowledge), psychomotor (skills), and affective (behavior) learning domains to enter the profession.",
   },
   {
     id: 4,
@@ -99,11 +99,17 @@ export const trainingModules = [
 ];
 
 export const clients = [
-  { id: 1, image: "./gallery/pictures/hrdc.png", title: "HRDC" },
-  { id: 2, image: "./gallery/pictures/beq.png", title: "beq" },
-  { id: 3, image: "./gallery/pictures/filano.png", title: "mtc" },
-  { id: 4, image: "./gallery/pictures/wuc.png", title: "wuc" },
-  { id: 5, image: "./gallery/pictures/tau.png", title: "tau" },
-  { id: 5, image: "./gallery/pictures/tsogo.jpeg", title: "tsogo" },
-  { id: 5, image: "./gallery/pictures/sivle.jpg", title: "sivle" },
+  { id: 1, image: "./gallery/hrdc.png", title: "hrdc" },
+  {
+    id: 2,
+    image: "./gallery/beq.png",
+    title: "beq",
+  },
+  { id: 3, image: "./gallery/tau.png", title: "mtc" },
+  { id: 4, image: "./gallery/wuc.png", title: "wuc" },
+  { id: 5, image: "./gallery/tsogo.png", title: "hrdc" },
+  { id: 6, image: "./gallery/kgatleng.png", title: "beq" },
+  { id: 7, image: "./gallery/sivle.png", title: "mtc" },
+  { id: 8, image: "./gallery/firetech.png", title: "wuc" },
+  { id: 9, image: "./gallery/mis.png", title: "mis" },
 ];
