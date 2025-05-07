@@ -25,7 +25,7 @@ export default function Carousel() {
   return (
     <div className="overflow-hidden w-full ">
       <motion.div
-        className="flex  items-center  gap-5 h-[15rem]  shrink-0"
+        className="flex  items-center  gap-5 h-[15rem]  "
         ref={ref}
         style={{ x: xtranslation }}
       >
@@ -36,7 +36,7 @@ export default function Carousel() {
               alt={client.title}
               width={200}
               height={200}
-              className=" shadow-md h-24 rounded-md border border-slate-200"
+              className=" shadow-md h-24 min-w-[15rem] rounded-md border border-slate-200"
             />
           </motion.div>
         ))}
