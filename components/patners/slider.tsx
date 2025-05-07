@@ -32,7 +32,7 @@ export default function Carousel() {
         {[...clients, ...clients].map((client) => (
           <motion.div
             key={client.id}
-            className="shadow-md h-24 w-[15rem] rounded-md border border-slate-200"
+            className="shadow-md h-24 min-w-[15rem] rounded-md border border-slate-200"
           >
             <Image
               src={client.image}
