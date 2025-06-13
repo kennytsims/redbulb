@@ -26,7 +26,7 @@ flex flex-col gap-3 md:flex-col lg:flex-row justify-center items-center
           <hr className="text-white mb-4" />
           <h3 className="text-slate-600 text-lg">
             <FaWhatsapp size={30} color="red" className=" m-2 inline" />
-            +269 72204418 / 71588790
+            +267 72204418 / 71588790
           </h3>
           <div className="text-slate-600 text-lg">
             <FaEnvelope size={30} color="red" className=" m-2 inline" />
